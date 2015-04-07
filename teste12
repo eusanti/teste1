@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Web Portefolio</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="js/webportefolio.js"></script>
+
+</head>
+
+<body>
+
+<div class="bg">
+
+<!--PÀGINA PRINCIPAL-->
+
+            <div class="mainbg">    
+                    <div class="mainbgesq"></div>
+                    <div class="mainbgdir"></div>
+                    
+                    <div class="logo"><p>EUnice Santiago</p></div>
+            </div>
+    
+<!--MENU-->
+    
+    
+    <div class="menu"><ul><li id="btn1">Portefólio</li><li id="btn2">EUnice</li><li id="btn3">Formação</li></ul></div>
+
+<!--PORTEFOLIO-->    
+    
+          <div class="portefolio" id="portefolio">
+              <div class="setalogo" id="olho"></div>
+              
+              <ul>
+                  <li id="port1" style="background:url(imgs/3D.jpg) no-repeat;background-size:cover; background-position:center;"></li>
+                  <li id="port2" style="background:url(imgs/portefolio1capablue.jpg) no-repeat; background-size:cover; background-position:center;"></li>
+                  <li id="port1" style="background:url(imgs/resimacbook.jpg) no-repeat; background-size:cover; background-position:center;"></li>
+                  <li id="port2" style="background:url(imgs/jornal.jpg) no-repeat; background-size:cover; background-position:center;"></li>
+                  <li id="port1" style="background:url(imgs/quintaolival.jpg) no-repeat; background-size:cover; background-position:center;"></li>
+                  <li id="port2" style="background:url(imgs/resimacbook.jpg) no-repeat; background-size:cover; background-position:center;"></li>
+              </ul>
+          </div>
+
+<!--INFO PESSOAL-->    
+    
+          <div class="EUnice">
+              <div class="setalogo" id="meiosol"></div>
+              
+              <ul>
+                  <li id="euni1">Autor: Eunice Valente Ferro Viveiros Santiago<br>Data nascimento: 19 Julho 1993<br>Profissão: Designer</li>
+                  <li id="euni2">Fotografia minha</li>
+                  <li id="euni1">Contacto: eunicevsantiago@gmail.com<br>917709566<br>behance<br>Linkedin</li>
+                  <li id="euni2"><textarea name="contact" title="contact" id="contact" place-holder="Se quiser saber mais..."></textarea></li>
+              </ul>
+          </div>
+    
+<!--FORMAÇÃO-->      
+    
+          <div class="formacao">
+              <div class="setalogo" id="form"></div>
+              
+              <ul>
+                  <li id="form1" style="background:url(imgs/iade.jpg) no-repeat; background-size:40% 70%; background-position: bottom right;">2011-2014 Licenciatura </li>
+                  <li id="form2" style="background:url(imgs/iel.jpg) no-repeat; background-size:10% 100%; background-position:left; text-align:left;">4 anos - 12º ano Instituto Español de Lisboa</li>
+              
+              </ul>
+          </div>
+
+</div>
+
+</body>
+</html>
